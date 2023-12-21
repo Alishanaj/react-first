@@ -1,6 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Header from './Header/Header';
+import Nav from './Nav/Nav';
+import About from './About/About';
+import Services from './Services/Services';
+import Portfolio from './Portfolio/Portfolio';
+import Testimonials from './Testimonials/Testimonials';
+import Contact from './Contact/Contact';
+import Footer from './Footer/Footer';
 
 let heading='hello yes world'
 let item1="item1"
@@ -19,23 +27,15 @@ ReactDOM.render(
 
 
 <>
-<h1>{heading}</h1>
-<p className='para'>hello the time is {curdate}</p>
-<ol>
-    <li style={firstinlinestyle}>
-        {item1}
-    </li>
-    <li>
-        {item2}
-    </li>
-    <li>
-        {item3}
-    </li>
-<li>
-    {curdatee}
-</li>
-   
-</ol>
+    <Header/>
+    <Nav/>
+    <About/>
+    <Services/>
+    <Portfolio/>
+    <Testimonials/>
+    <Contact/>
+    <Footer/>
+
 
 </>
 
