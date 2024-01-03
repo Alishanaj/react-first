@@ -1,0 +1,50 @@
+.top-space{
+    margin-top: 160px;
+}
+
+.bottom-space{
+    margin-bottom: 150px;
+}
+
+.top-spacee{
+    margin-top: 60px;
+}
+
+.bottom-spacee{
+    margin-bottom: 50px;
+}
+
+nav {
+    display: block;
+   margin: auto;
+   padding: 0.7rem 1.7rem;
+    font-size: 1.5rem;
+    background: rgba(0, 0, 0,0.3);
+    width: max-content;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    bottom: 2rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+   
+    
+}
+
+nav a{
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+ display: flex;
+    color: var(--color-light);
+    font-size: 1.1rem;
+}
+
+nav a.active{
+    background: var(--color-bg);
+    color: var(--color-light);
+}
+

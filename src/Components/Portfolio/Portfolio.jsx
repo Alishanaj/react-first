@@ -2,7 +2,11 @@ import React from 'react'
 
 const Portfolio = () => {
   return (
-    <div>Portfolio</div>
+    <>
+        <div className="top-space"></div>
+    <div id="portfolio">Portfolio</div>
+    <div className="bottom-space"></div>
+    </>
   )
 }
 
