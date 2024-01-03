@@ -72,8 +72,12 @@
 @media screen and (max-width:1024px) {
   
    .about__container{
-    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
     gap: 0;
+   }
+
+   .about__cards{
+    justify-content: center;
    }
 
    .about__me{
@@ -84,9 +88,7 @@
    .about__content p{
     text-align: center;
    }
-   .about__cards{
-    justify-content: center;
-   }
+
 
    .about__content a{
     text-align: center;
@@ -99,7 +101,32 @@
   
   @media screen and (max-width:767px) {
    
+    .about__me{
+        width: 50%;
+        margin: 2rem auto 4rem;
+       }
+
+       .about__cards{
+        justify-content: center;
+        display: block;
+        margin-bottom: 20px;
+       }
     
+       .about__card{
+        justify-content: center;
+        display: block;
+        margin-bottom: 20px;
+       }
+
+      
+       .about__content{
+        text-align: center;
+       }
+
+       .about__content p{
+        margin: 1.5rem 0;
+        font-size: 14px;
+       }
 
    
   } 
